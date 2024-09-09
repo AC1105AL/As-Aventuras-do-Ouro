@@ -1,0 +1,33 @@
+body {
+    background-color:rgba(75, 75, 5, 0.63);
+    color:black;
+    font-family:"Sevillana", cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    margin: 0;
+}
+
+button {
+    background-color: rgba(255, 255, 0, 0.911);
+    color: black;
+    font-family: "Nerko One", cursive;
+}
+
+.passo {
+    display:none;
+}
+
+.passo.ativo {
+    display:block;
+}
+
+main {
+    text-align: center;
+    max-width: 90%;
+}
+
+img{
+    max-width: 90%;
+}
